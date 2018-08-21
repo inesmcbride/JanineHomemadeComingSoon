@@ -1,0 +1,68 @@
+html, body{
+  min-height: 100vh;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  
+  -webkit-box-pack : center;
+  -moz-box-pack : center;
+  -ms-flex-pack : center;
+  -webkit-justify-content : center;
+  justify-content : center;
+}
+.container{
+  margin-left: 15px;
+  font-family: 'Anonymous Pro', monospace;
+  color: #090952;
+}
+.footer{
+  margin-top: 20px;
+}
+
+.row{
+  margin-left: 0px !important;
+}
+.mid{
+  background-image: url(Images/RoundPlatterPhotoLong.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
+#LogoImage{
+  width: 100%;
+}
+
+.mid.a{
+  padding-right: 5px;
+}
+.fab{
+  z-index: 1;
+}
+i{
+  color: #090952;
+  padding: 5px;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+  #centerContent{
+    margin-top: 0px;
+  }
+  .mid{
+    height: 200px;
+  }
+  #LogoImage{
+  width: 90%;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
