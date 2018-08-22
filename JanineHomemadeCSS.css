@@ -25,10 +25,12 @@ html, body{
   margin-left: 0px !important;
 }
 .mid{
-  background-image: url(Images/RoundPlatterPhotoLong.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 300px;
+/*  background-image: url(Images/RoundPlatterPhoto2.jpg);*/
+/*  background-repeat: no-repeat;*/
+/*  background-position: center;*/
+/*  background-size: auto 400px;*/
+/*  height: 200px;*/
+  padding-top: 20px;
 }
 
 #LogoImage{
@@ -56,7 +58,7 @@ i{
     margin-top: 0px;
   }
   .mid{
-    height: 200px;
+/*    height: 201px;*/
   }
   #LogoImage{
   width: 90%;
