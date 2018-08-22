@@ -13,7 +13,6 @@ html, body{
   justify-content : center;
 }
 .container{
-  margin-left: 15px;
   font-family: 'Anonymous Pro', monospace;
   color: #090952;
 }
@@ -21,7 +20,7 @@ html, body{
   margin-top: 20px;
 }
 .row{
-  margin-left: 0px !important;
+/*  margin-left: 0px !important;*/
 }
 .mid{
   padding-top: 10px;
@@ -49,9 +48,6 @@ i{
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-  #centerContent{
-    margin-top: 0px;
-  }
   #mobileImage{
   display: none;
 }
