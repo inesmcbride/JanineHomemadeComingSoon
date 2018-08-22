@@ -20,28 +20,23 @@ html, body{
 .footer{
   margin-top: 20px;
 }
-
 .row{
   margin-left: 0px !important;
 }
 .mid{
-/*  background-image: url(Images/RoundPlatterPhoto2.jpg);*/
-/*  background-repeat: no-repeat;*/
-/*  background-position: center;*/
-/*  background-size: auto 400px;*/
-/*  height: 200px;*/
-  padding-top: 20px;
+  padding-top: 10px;
 }
-
+#mobileImage{
+  display: flex;
+}
+#desktopImage{
+  display: none;
+}
 #LogoImage{
   width: 100%;
 }
-
 .mid.a{
   padding-right: 5px;
-}
-.fab{
-  z-index: 1;
 }
 i{
   color: #090952;
@@ -57,9 +52,12 @@ i{
   #centerContent{
     margin-top: 0px;
   }
-  .mid{
-/*    height: 201px;*/
-  }
+  #mobileImage{
+  display: none;
+}
+  #desktopImage{
+  display: block;
+}
   #LogoImage{
   width: 90%;
 }
